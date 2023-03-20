@@ -110,8 +110,8 @@ function uuidv4() {
   });
 }
 
-app.listen(9090, () => {
-  console.log("Szerver aktív, http://localhost:9090-es porton");
+app.listen(8080, () => {
+  console.log("Szerver aktív, http://localhost:8080-es porton");
 });
 
 function readFile(filePath) {
